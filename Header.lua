@@ -1,14 +1,14 @@
 bot_raw = {}
 ---======================---
-bot_raw["NAMEBOT1"] = {
+bot_raw["sisingdf5"] = {
 webhooks = {
-  ["LINK"]  = '',
+  ["LINK"]  = 'https://discord.com/api/webhooks/1017874956530503861/d8f-rqL9_YW844yP9aMSm-PyH_7eugV6OEmCqZ9iHE-t1oQCrqkpNPWppO1cGzf1wnXA',
   ["EDIT"]  = false
 },
 -----------------------
 bot_config = {
-  ["World"] = {"FARM1"},
-  ["Door"] = 'FARM_ID',
+  ["World"] = {""},
+  ["Door"] = 'OSAS880',
   ["Loop"] = true,
   ["Save_Mode"] = 1,
   ["Save"] = {
@@ -31,8 +31,8 @@ bot_config = {
 },
 ------------------------
 bot_mode = {
-  ["Block"] = 5666,
-  ["Type"] = 'fg',
+  ["Block"] = 3004,
+  ["Type"] = 'bg',
   ["Ignore Gems"] = false, --Ignore Gems When Harvesting
   ["Coordinate_Break"] = {2,1}
 },
@@ -47,7 +47,7 @@ bot_environment = {
             ["Name"] = 'world_lock',
             ["Price"] = 2000,
             ["Item_List"] = {242},
-            ["Limit"] = 3,
+            ["Limit"] = 10,
             ["When"] = {
                         ["Harvest"] = true,
                         ["Plant"]   = true,
@@ -56,12 +56,12 @@ bot_environment = {
             },
   ["Jammer"] = true,
   ["Ban"] = {
-            ["Mode"] = true,
+            ["Mode"] = false,
             ["Ignore"] = {"Ignored_Name"}
             },
   ["Leave"] = {
             ["Mode"] = true,
-            ["Limit"] = 5,
+            ["Limit"] = 4,
             ["Delay"] = 30 --Second
               }
 }
@@ -69,7 +69,7 @@ bot_environment = {
 
 bot_raw["NAMEBOT2"] = {
   webhooks = {
-  ["LINK"]  = '',
+  ["LINK"]  = 'https://discord.com/api/webhooks/1017874956530503861/d8f-rqL9_YW844yP9aMSm-PyH_7eugV6OEmCqZ9iHE-t1oQCrqkpNPWppO1cGzf1wnXA',
   ["EDIT"]  = false
 },
 -----------------------
@@ -98,8 +98,8 @@ bot_config = {
 },
 ------------------------
 bot_mode = {
-  ["Block"] = 5666,
-  ["Type"] = 'fg',
+  ["Block"] = 3004,
+  ["Type"] = 'bg',
   ["Ignore Gems"] = false, --Ignore Gems When Harvesting
   ["Coordinate_Break"] = {2,1}
 },
@@ -114,7 +114,7 @@ bot_environment = {
             ["Name"] = 'world_lock',
             ["Price"] = 2000,
             ["Item_List"] = {242},
-            ["Limit"] = 3,
+            ["Limit"] = 10,
             ["When"] = {
                         ["Harvest"] = true,
                         ["Plant"]   = true,
@@ -123,12 +123,12 @@ bot_environment = {
             },
   ["Jammer"] = true,
   ["Ban"] = {
-            ["Mode"] = true,
+            ["Mode"] = false,
             ["Ignore"] = {"Ignored_Name"}
             },
   ["Leave"] = {
             ["Mode"] = true,
-            ["Limit"] = 5,
+            ["Limit"] = 4,
             ["Delay"] = 30 --Second
               }
 }
